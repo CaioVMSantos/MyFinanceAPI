@@ -31,4 +31,14 @@ public class TransacaoController {
         return ResponseEntity.ok(transacoes);
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<TransacaoResponseDTO> listarTransacaoPorId(@PathVariable Long id) {
+        TransacaoResponseDTO transacao = transacaoService.listarPorId(id);
+        return ResponseEntity.ok(transacao);
+    }
+
+    @DeleteMapping("/{id}")
+    public void removerTransacao(@PathVariable Long id) {
+        transacaoService.remover(id);
+    }
 }
