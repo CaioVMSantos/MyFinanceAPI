@@ -1,5 +1,5 @@
 CREATE TABLE categoria (
-    id SERIAL PRIMARY KEY,
+    id BIGSERIAL PRIMARY KEY,
     nome VARCHAR(50) NOT NULL
 );
 
