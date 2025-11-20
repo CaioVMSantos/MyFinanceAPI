@@ -2,7 +2,6 @@ package com.api.MyFinance.controller;
 
 import com.api.MyFinance.dto.request.TransacaoRequestDTO;
 import com.api.MyFinance.dto.response.TransacaoResponseDTO;
-import com.api.MyFinance.model.Transacao;
 import com.api.MyFinance.service.TransacaoService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

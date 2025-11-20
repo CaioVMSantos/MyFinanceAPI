@@ -9,10 +9,8 @@ import com.api.MyFinance.repository.CategoriaRepository;
 import com.api.MyFinance.repository.TransacaoRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
-import org.mapstruct.Mapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
@@ -52,7 +50,6 @@ public class TransacaoService {
                 .orElseThrow(() -> new IllegalArgumentException("Transação não encontrada com id: " + id));
         transacaoRepository.deleteById(id);
     }
-
 
 
 }
