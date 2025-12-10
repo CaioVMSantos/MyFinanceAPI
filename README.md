@@ -1,4 +1,3 @@
-````markdown
 # 💰 MyFinance - Gestor de Despesas Pessoais
 
 > **Status do Projeto:** 🚧 Backend Concluído | Frontend em Desenvolvimento
@@ -55,22 +54,23 @@ docker-compose up -d
 
 *Isto irá criar um contentor PostgreSQL e um volume para persistência dos dados.*
 
-### 2\. Executar o Backend
+### 2. Executar o Backend
 
-1.  Abra o projeto na sua IDE.
-2.  Certifique-se de configurar as variáveis de ambiente na IDE, caso não esteja a usar o perfil padrão:
-      - `DB_USER` (Padrão: admin)
-      - `DB_PASSWORD` (Padrão: admin)
-3.  Execute a classe principal `MyFinanceApplication`.
-4.  O **Flyway** irá criar automaticamente as tabelas na base de dados ao iniciar.
+1. Abra o projeto na sua IDE.
+2. Certifique-se de configurar as variáveis de ambiente na IDE, caso não esteja a usar o perfil padrão:
 
-### 3\. Aceder à Documentação (Swagger)
+   * `DB_USER` (Padrão: admin)
+   * `DB_PASSWORD` (Padrão: admin)
+3. Execute a classe principal `MyFinanceApplication`.
+4. O **Flyway** irá criar automaticamente as tabelas na base de dados ao iniciar.
+
+### 3. Aceder à Documentação (Swagger)
 
 Com o backend a correr, aceda ao seguinte endereço no navegador para testar os endpoints:
 
-  - **Swagger UI:** `http://localhost:8080/swagger-ui.html`
+* **Swagger UI:** `http://localhost:8080/swagger-ui.html`
 
------
+---
 
 ## 🧪 Testes Automatizados
 
@@ -87,4 +87,6 @@ Para rodar os testes via terminal:
 Este projeto foi desenvolvido para fins de estudo e portfólio, demonstrando competências em desenvolvimento Fullstack com Java e Angular.
 
 ```
+
+Se quiser, posso **otimizar**, **deixar mais profissional**, **adicionar imagens**, **badges**, **diagrama da arquitetura**, ou **melhorar a descrição do projeto**.
 ```
