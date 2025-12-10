@@ -33,7 +33,7 @@ Projeto Fullstack desenvolvido para gerenciar despesas e receitas, focado em boa
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/seu-usuario/myfinance.git](https://github.com/seu-usuario/myfinance.git)
-````
+
 
 2.  **Suba o banco de dados:**
     Na raiz do projeto (onde está o `docker-compose.yml`):
