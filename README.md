@@ -86,7 +86,3 @@ Para rodar os testes via terminal:
 
 Este projeto foi desenvolvido para fins de estudo e portfólio, demonstrando competências em desenvolvimento Fullstack com Java e Angular.
 
-```
-
-Se quiser, posso **otimizar**, **deixar mais profissional**, **adicionar imagens**, **badges**, **diagrama da arquitetura**, ou **melhorar a descrição do projeto**.
-```
